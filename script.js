@@ -90,9 +90,11 @@ btnHold.addEventListener('click', function () {
         .classList.remove('player--active');
     } else {
       // Switch to the next player
-      switchPlayer();
+      switchPlayer( );
     }
   }
 });
 
 btnNew.addEventListener('click', init);
+
+
